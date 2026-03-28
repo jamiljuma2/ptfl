@@ -57,6 +57,7 @@ export default function Contact() {
         </div>
         <div className="text-zinc-700 dark:text-zinc-200 text-sm">{SITE.email} &bull; {SITE.phone}</div>
       </div>
+      {/*
       {isLoaded && (
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -67,6 +68,7 @@ export default function Contact() {
           <Marker position={{ lat: -1.2921, lng: 36.8219 }} />
         </GoogleMap>
       )}
+      */}
     </SectionWrapper>
   );
 }
