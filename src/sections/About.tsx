@@ -28,7 +28,7 @@ export default function About() {
               </span>
             ))}
           </div>
-          <Link href={SITE.cv} download className="inline-block mt-2 px-6 py-2 rounded-full bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-all">
+          <Link href="/cv.pdf" download className="inline-block mt-2 px-6 py-2 rounded-full bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-all">
             Download CV
           </Link>
         </div>
