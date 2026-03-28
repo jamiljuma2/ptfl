@@ -19,7 +19,13 @@ export default function Projects() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <div className="relative h-48 w-full overflow-hidden">
-              <Image src={project.image} alt={project.title} fill className="object-cover group-hover:scale-105 transition-transform duration-300" />
+              <Image 
+                src={project.image} 
+                alt={project.title} 
+                fill 
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-300" 
+              />
             </div>
             <div className="p-6 flex-1 flex flex-col">
               <h3 className="text-xl font-bold mb-2 text-green-700 dark:text-green-400">{project.title}</h3>
