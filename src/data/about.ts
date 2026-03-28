@@ -3,6 +3,8 @@ export const ABOUT = {
   profile: "/images/profile.jpg", // Place your profile image in public/images/
   skills: [
     "Frontend Development",
+    "Full-Stack Developer",
+    "Cyber Security Analyst",
     "UI/UX Design",
     "Web Animation",
     "API Integration",

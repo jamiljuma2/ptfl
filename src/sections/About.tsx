@@ -12,9 +12,9 @@ export default function About() {
           <Image
             src={ABOUT.profile}
             alt={SITE.name + " profile"}
-            width={160}
-            height={160}
-            className="rounded-full shadow-lg object-cover border-4 border-green-500"
+            width={180}
+            height={180}
+            className="rounded-full shadow-lg object-cover object-top border-4 border-green-500 w-44 h-44"
             priority
           />
         </div>
