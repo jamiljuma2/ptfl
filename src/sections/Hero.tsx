@@ -24,10 +24,16 @@ export default function Hero() {
             <TypingText words={roles} className="font-mono text-green-600 dark:text-green-400" />
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link href="#contact" className="rounded-full px-8 py-3 bg-green-600 text-white font-semibold shadow-lg hover:bg-green-700 transition-all focus:outline-none focus:ring-2 focus:ring-green-400">
+            <Link
+              href="#contact"
+              className="rounded-full px-5 py-2 text-base sm:px-8 sm:py-3 sm:text-lg bg-green-600 text-white font-semibold shadow-lg hover:bg-green-700 transition-all focus:outline-none focus:ring-2 focus:ring-green-400 min-w-[120px] text-center"
+            >
               Hire Me
             </Link>
-            <Link href="#projects" className="rounded-full px-8 py-3 bg-white/80 dark:bg-zinc-900/80 text-green-700 dark:text-green-400 font-semibold shadow-lg hover:bg-green-50 dark:hover:bg-zinc-800 transition-all border border-green-200 dark:border-green-800 focus:outline-none focus:ring-2 focus:ring-green-400">
+            <Link
+              href="#projects"
+              className="rounded-full px-5 py-2 text-base sm:px-8 sm:py-3 sm:text-lg bg-white/80 dark:bg-zinc-900/80 text-green-700 dark:text-green-400 font-semibold shadow-lg hover:bg-green-50 dark:hover:bg-zinc-800 transition-all border border-green-200 dark:border-green-800 focus:outline-none focus:ring-2 focus:ring-green-400 min-w-[120px] text-center"
+            >
               View Projects
             </Link>
           </div>
