@@ -1,0 +1,38 @@
+import SectionWrapper from "../components/SectionWrapper";
+import { ABOUT } from "../data/about";
+import { SITE } from "../data/site.config";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function About() {
+  return (
+    <SectionWrapper id="about" className="py-24 bg-white/80 dark:bg-zinc-900/80 backdrop-blur rounded-3xl shadow-lg max-w-4xl mx-auto mt-12">
+      <div className="flex flex-col md:flex-row items-center gap-10 px-6">
+        <div className="flex-shrink-0">
+          <Image
+            src={ABOUT.profile}
+            alt={SITE.name + " profile"}
+            width={160}
+            height={160}
+            className="rounded-full shadow-lg object-cover border-4 border-green-500"
+            priority
+          />
+        </div>
+        <div className="flex-1 text-center md:text-left">
+          <h2 className="text-3xl font-bold mb-4 text-green-700 dark:text-green-400">About Me</h2>
+          <p className="text-lg mb-4 text-zinc-700 dark:text-zinc-200">{ABOUT.summary}</p>
+          <div className="flex flex-wrap gap-2 justify-center md:justify-start mb-4">
+            {ABOUT.skills.map((skill) => (
+              <span key={skill} className="bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300 px-3 py-1 rounded-full text-sm font-medium shadow">
+                {skill}
+              </span>
+            ))}
+          </div>
+          <Link href={SITE.cv} download className="inline-block mt-2 px-6 py-2 rounded-full bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition-all">
+            Download CV
+          </Link>
+        </div>
+      </div>
+    </SectionWrapper>
+  );
+}

@@ -1,0 +1,16 @@
+export const SKILLS = [
+  { name: "React.js", icon: "react", level: 95 },
+  { name: "Next.js", icon: "nextdotjs", level: 90 },
+  { name: "Node.js", icon: "nodedotjs", level: 85 },
+  { name: "TypeScript", icon: "typescript", level: 90 },
+  { name: "JavaScript", icon: "javascript", level: 92 },
+  { name: "Python", icon: "python", level: 88 },
+  { name: "Tailwind CSS", icon: "tailwindcss", level: 90 },
+  { name: "Django", icon: "django", level: 80 },
+  { name: "Framer Motion", icon: "framer", level: 80 },
+  { name: "MongoDB", icon: "mongodb", level: 75 },
+  { name: "PostgreSQL", icon: "postgresql", level: 75 },
+  { name: "SQL", icon: "sql", level: 80 },
+  { name: "REST APIs", icon: "restapi", level: 85 },
+  { name: "Figma", icon: "figma", level: 70 },
+];
