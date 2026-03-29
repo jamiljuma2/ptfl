@@ -14,4 +14,9 @@ export const SOCIALS = [
     url: "https://twitter.com/jamiljuma",
     icon: "FaTwitter",
   },
+  {
+    name: "WhatsApp",
+    url: "https://wa.me/254700686463",
+    icon: "FaWhatsapp",
+  },
 ];

@@ -3,7 +3,7 @@ import SectionWrapper from "../components/SectionWrapper";
 import { SITE } from "../data/site.config";
 import { SOCIALS } from "../data/socials";
 import { useForm } from "react-hook-form";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -37,7 +37,12 @@ export default function Contact() {
       <div className="flex flex-col items-center mt-8 gap-2">
         <div className="flex gap-4 mb-2">
           {SOCIALS.map((s) => {
-            const Icon = s.icon === "FaGithub" ? FaGithub : s.icon === "FaLinkedin" ? FaLinkedin : FaTwitter;
+            let Icon;
+            if (s.icon === "FaGithub") Icon = FaGithub;
+            else if (s.icon === "FaLinkedin") Icon = FaLinkedin;
+            else if (s.icon === "FaTwitter") Icon = FaTwitter;
+            else if (s.icon === "FaWhatsapp") Icon = FaWhatsapp;
+            else Icon = FaGithub;
             return (
               <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer" className="text-2xl text-green-600 hover:text-green-800 transition-colors">
                 <Icon />
