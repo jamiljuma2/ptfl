@@ -13,7 +13,7 @@ export const PROJECTS = [
     description: "Built a production-level fintech dashboard inspired by platforms like PayPal and Stripe, demonstrating strong frontend engineering, UI/UX design, and scalable architecture skills.",
     image: "/images/fintech-dashboard.png", // Placeholder, add this image to public/images
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Zustand", "Mock API Layer"],
-    github: "https://github.com/jamiljuma2/fintech-dashboard", // Placeholder
+    github: "https://github.com/jamiljuma2/finflow", // Provided by user
     demo: "https://finflow-sigma-bay.vercel.app",
     highlights: "Designed a scalable architecture, implemented interactive charts, and managed state with Zustand for a seamless user experience.",
   },
