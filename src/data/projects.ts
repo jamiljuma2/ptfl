@@ -22,7 +22,7 @@ export const PROJECTS = [
     description: "A robust web app for sports betting with live odds, user management, and transaction tracking.",
     image: "/images/betting-platform.png", // Placeholder, add this image to public/images
     tech: ["React.js", "Node.js", "PostgreSQL", "REST APIs", "Supabase"],
-    github: "https://github.com/jamiljuma2/betting-platform", // Placeholder
+    github: "https://github.com/jamiljuma2/ApexBet", // Provided by user
     demo: "https://betting-platform-demo.com", // Placeholder
     highlights: "Implemented secure payment flows, real-time odds updates, and scalable backend architecture.",
   },
