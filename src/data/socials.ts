@@ -6,7 +6,7 @@ export const SOCIALS = [
   },
   {
     name: "LinkedIn",
-    url: "www.linkedin.com/in/jamil-juma-5b5606343",
+    url: "https://www.linkedin.com/in/jamil-juma-5b5606343",
     icon: "FaLinkedin",
   },
   {

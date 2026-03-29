@@ -7,7 +7,7 @@ export const SITE = {
   phone: "+254700686463", // Replace with your phone
   location: "Your City, Country", // Replace with your location
   github: "https://github.com/jamiljuma2", // Replace with your GitHub
-  linkedin: "www.linkedin.com/in/jamil-juma-5b5606343", // Replace with your LinkedIn
+  linkedin: "https://www.linkedin.com/in/jamil-juma-5b5606343", // Replace with your LinkedIn
   twitter: "https://twitter.com/jamiljuma", // Replace with your Twitter
   cv: "/cv.pdf", // Place your CV in public/
 };
