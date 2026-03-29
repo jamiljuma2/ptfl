@@ -6,7 +6,7 @@ export const SITE = {
   email: "jumajamil314@gmail.com", // Replace with your email
   phone: "+254700686463", // Replace with your phone
   location: "Your City, Country", // Replace with your location
-  github: "https://github.com/jamiljuma", // Replace with your GitHub
+  github: "https://github.com/jamiljuma2", // Replace with your GitHub
   linkedin: "https://linkedin.com/in/jamiljuma", // Replace with your LinkedIn
   twitter: "https://twitter.com/jamiljuma", // Replace with your Twitter
   cv: "/cv.pdf", // Place your CV in public/
