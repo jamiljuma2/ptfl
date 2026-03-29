@@ -8,6 +8,6 @@ export const SITE = {
   location: "Your City, Country", // Replace with your location
   github: "https://github.com/jamiljuma2", // Replace with your GitHub
   linkedin: "https://www.linkedin.com/in/jamil-juma-5b5606343", // Replace with your LinkedIn
-  twitter: "https://twitter.com/jamiljuma", // Replace with your Twitter
+  twitter: "https://twitter.com/jamil_juma73977", // Replace with your Twitter
   cv: "/cv.pdf", // Place your CV in public/
 };

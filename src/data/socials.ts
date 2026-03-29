@@ -11,7 +11,7 @@ export const SOCIALS = [
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/jamiljuma",
+    url: "https://twitter.com/jamil_juma73977",
     icon: "FaTwitter",
   },
   {
