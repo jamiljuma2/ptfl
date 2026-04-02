@@ -19,9 +19,9 @@ export default function Hero() {
             alt="Hero background"
             fill
             priority
-            className="object-cover opacity-15"
+            className="object-cover opacity-30"
           />
-          <div className="absolute inset-0 bg-slate-950/55" />
+          <div className="absolute inset-0 bg-slate-950/40" />
         </div>
         <motion.div
           className="relative z-10"
