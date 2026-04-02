@@ -23,16 +23,16 @@ export default function Hero() {
           <div className="text-lg sm:text-xl md:text-2xl font-medium mb-6">
             <TypingText words={roles} className="font-mono text-green-600 dark:text-green-400" />
           </div>
-          <div className="flex w-full max-w-md flex-col sm:flex-row gap-3 sm:gap-4 justify-center mx-auto mt-8">
+          <div className="flex w-full max-w-md gap-2 sm:gap-4 justify-between mx-auto mt-8">
             <Link
               href="#contact"
-              className="w-full sm:w-auto rounded-full px-4 py-2.5 text-sm sm:px-7 sm:py-3 sm:text-base bg-green-600 text-white font-semibold shadow-lg hover:bg-green-700 transition-all focus:outline-none focus:ring-2 focus:ring-green-400 text-center"
+              className="flex-1 rounded-full px-3 py-2.5 text-sm sm:px-7 sm:py-3 sm:text-base bg-green-600 text-white font-semibold shadow-lg hover:bg-green-700 transition-all focus:outline-none focus:ring-2 focus:ring-green-400 text-center whitespace-nowrap"
             >
               Hire Me
             </Link>
             <Link
               href="#projects"
-              className="w-full sm:w-auto rounded-full px-4 py-2.5 text-sm sm:px-7 sm:py-3 sm:text-base bg-white/80 dark:bg-zinc-900/80 text-green-700 dark:text-green-400 font-semibold shadow-lg hover:bg-green-50 dark:hover:bg-zinc-800 transition-all border border-green-200 dark:border-green-800 focus:outline-none focus:ring-2 focus:ring-green-400 text-center"
+              className="flex-1 rounded-full px-3 py-2.5 text-sm sm:px-7 sm:py-3 sm:text-base bg-white/80 dark:bg-zinc-900/80 text-green-700 dark:text-green-400 font-semibold shadow-lg hover:bg-green-50 dark:hover:bg-zinc-800 transition-all border border-green-200 dark:border-green-800 focus:outline-none focus:ring-2 focus:ring-green-400 text-center whitespace-nowrap"
             >
               View Projects
             </Link>
