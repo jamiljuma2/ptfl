@@ -5,6 +5,7 @@ import GradientBackground from "../components/GradientBackground";
 import { SITE } from "../data/site.config";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const roles = ["Software Developer", "UI/UX Designer", "Freelancer"];
 
@@ -12,7 +13,18 @@ export default function Hero() {
   return (
     <GradientBackground>
       <section className="relative flex flex-col items-center justify-center min-h-screen w-full px-4 py-20 sm:py-24 text-center">
+        <div className="absolute inset-0 pointer-events-none">
+          <Image
+            src="/images/profile.jpg"
+            alt="Hero background"
+            fill
+            priority
+            className="object-cover opacity-15"
+          />
+          <div className="absolute inset-0 bg-slate-950/55" />
+        </div>
         <motion.div
+          className="relative z-10"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
