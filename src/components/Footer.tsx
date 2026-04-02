@@ -18,7 +18,7 @@ export default function Footer() {
             );
           })}
         </div>
-        <div className="flex gap-4 text-sm">
+        <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
           <Link href="#about" className="hover:text-green-400">About</Link>
           <Link href="#skills" className="hover:text-green-400">Skills</Link>
           <Link href="#projects" className="hover:text-green-400">Projects</Link>

@@ -6,15 +6,15 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <SectionWrapper id="about" className="py-24 bg-white/80 dark:bg-zinc-900/80 backdrop-blur rounded-3xl shadow-lg max-w-4xl mx-auto mt-12">
-      <div className="flex flex-col md:flex-row items-center gap-10 px-6">
+    <SectionWrapper id="about" className="py-16 sm:py-24 bg-white/80 dark:bg-zinc-900/80 backdrop-blur rounded-3xl shadow-lg max-w-4xl mx-auto mt-12">
+      <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-10 px-4 sm:px-6">
         <div className="flex-shrink-0">
           <Image
             src={ABOUT.profile}
             alt={SITE.name + " profile"}
             width={180}
             height={180}
-            className="rounded-full shadow-lg object-cover object-top border-4 border-green-500 w-44 h-44"
+            className="rounded-full shadow-lg object-cover object-top border-4 border-green-500 w-32 h-32 sm:w-44 sm:h-44"
             priority
           />
         </div>

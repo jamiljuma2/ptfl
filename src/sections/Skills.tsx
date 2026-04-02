@@ -25,11 +25,11 @@ const ICONS: Record<string, React.ReactElement> = {
 
 export default function Skills() {
   return (
-    <SectionWrapper id="skills" className="py-24 max-w-4xl mx-auto">
+    <SectionWrapper id="skills" className="py-16 sm:py-24 max-w-4xl mx-auto">
       <h2 className="text-3xl font-bold mb-10 text-center text-green-700 dark:text-green-400">Skills & Tech Stack</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6 md:gap-8">
         {SKILLS.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center bg-white/80 dark:bg-zinc-900/80 rounded-2xl shadow-lg p-6 group transition-transform hover:-translate-y-2 hover:shadow-2xl">
+          <div key={skill.name} className="flex flex-col items-center bg-white/80 dark:bg-zinc-900/80 rounded-2xl shadow-lg p-4 sm:p-6 group transition-transform hover:-translate-y-2 hover:shadow-2xl">
             <div className="text-4xl mb-2 group-hover:scale-110 transition-transform">
               {ICONS[skill.icon]}
             </div>
