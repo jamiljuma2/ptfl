@@ -5,6 +5,7 @@ export type CybersecurityProject = {
   tools: string[];
   github?: string;
   report?: string;
+  demo?: string;
 };
 
 export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
@@ -31,5 +32,13 @@ export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
       "Built detection rules, investigated suspicious events, and produced incident timelines with containment recommendations.",
     tools: ["Wazuh", "Elastic SIEM", "Sysmon", "Kibana"],
     github: "https://github.com/jamiljuma2",
+  },
+  {
+    title: "Phishguard",
+    category: "Threat Detection",
+    description:
+      "Detects phishing emails, URLs, and SMS messages to protect users from social engineering attacks.",
+    tools: ["Machine Learning", "NLP", "Email Security", "URL Analysis"],
+    demo: "https://phishguard-huuy.onrender.com",
   },
 ];

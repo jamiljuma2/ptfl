@@ -44,6 +44,11 @@ export default function CyberSecurityProjects() {
                   GitHub
                 </Link>
               )}
+              {project.demo && (
+                <Link href={project.demo} target="_blank" className="text-green-600 hover:underline font-semibold">
+                  Live Demo
+                </Link>
+              )}
               {project.report && (
                 <Link href={project.report} target="_blank" className="text-green-600 hover:underline font-semibold">
                   Case Study
