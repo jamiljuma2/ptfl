@@ -24,6 +24,7 @@ export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
       "Executed OWASP-based testing against a sandbox app to identify SQLi, XSS, and authentication weaknesses.",
     tools: ["Burp Suite", "OWASP ZAP", "Postman", "SQLMap"],
     github: "https://github.com/jamiljuma2",
+    demo: "https://pentest-lab-client.vercel.app",
   },
   {
     title: "Burpsite- Web Security Testing Tool",
