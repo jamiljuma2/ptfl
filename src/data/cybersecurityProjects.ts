@@ -16,6 +16,7 @@ export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
       "Performed a controlled internal network scan, prioritized findings by CVSS score, and documented remediation steps.",
     tools: ["Nmap", "Nessus", "OpenVAS", "Wireshark"],
     github: "https://github.com/jamiljuma2",
+    demo: "https://network-lab-gilt.vercel.app",
   },
   {
     title: "Web Application Penetration Testing",
