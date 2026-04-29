@@ -36,13 +36,4 @@ export const CYBERSECURITY_PROJECTS: CybersecurityProject[] = [
     tools: ["Machine Learning", "NLP", "Email Security", "URL Analysis"],
     demo: "https://phishguard-ochre.vercel.app",
   },
-  {
-    title: "AI for Beginners. Built for Kenya.",
-    category: "AI Education",
-    description:
-      "A live 4-week cohort that turns curious students, freelancers & professionals into confident AI users. Real projects. Real outcomes. Taught simply.",
-    tools: ["AI", "Education", "Cohort", "Projects"],
-    demo: "https://mp-enroll-ace.lovable.app",
-    image: "/images/ai.png",
-  },
 ];

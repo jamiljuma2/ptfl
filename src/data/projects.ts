@@ -26,4 +26,12 @@ export const PROJECTS = [
     demo: "https://cafe-pi-ivory.vercel.app",
     highlights: "Implemented menu browsing, reservation flows, and a scalable backend architecture for smooth ordering.",
   },
+  {
+    title: "AI for Beginners. Built for Kenya.",
+    description: "A live 4-week cohort that turns curious students, freelancers & professionals into confident AI users. Real projects. Real outcomes. Taught simply.",
+    image: "/images/ai.png",
+    tech: ["AI", "Education", "Cohort", "Projects"],
+    demo: "https://mp-enroll-ace.lovable.app",
+    highlights: "Empowered beginners in Kenya to use AI confidently through hands-on projects and simple teaching.",
+  },
 ];
