@@ -33,5 +33,6 @@ export const PROJECTS = [
     tech: ["AI", "Education", "Cohort", "Projects"],
     demo: "https://mp-enroll-ace.lovable.app",
     highlights: "Empowered beginners in Kenya to use AI confidently through hands-on projects and simple teaching.",
+    github: undefined,
   },
 ];
