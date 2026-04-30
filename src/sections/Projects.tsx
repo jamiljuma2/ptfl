@@ -1,4 +1,3 @@
-
 "use client";
 import SectionWrapper from "../components/SectionWrapper";
 import { PROJECTS } from "../data/projects";
@@ -39,7 +38,9 @@ export default function Projects() {
               </div>
               <div className="flex flex-wrap gap-4 mt-auto">
                 <Link href={project.demo} target="_blank" className="text-green-600 hover:underline font-semibold">Live Demo</Link>
-                <Link href={project.github} target="_blank" className="text-zinc-700 dark:text-zinc-200 hover:underline font-semibold">GitHub</Link>
+                {project.github && (
+                  <Link href={project.github} target="_blank" className="text-zinc-700 dark:text-zinc-200 hover:underline font-semibold">GitHub</Link>
+                )}
               </div>
             </div>
           </motion.div>
